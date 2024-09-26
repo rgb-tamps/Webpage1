@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Murals</title>
+</head>
+<style>
+nav {
+    background-color:transparent;
+    padding: 50px;
+    position: fixed;
+    right: 10px
+   
+}
+
+    body {
+        background-color: aliceblue;
+        background-image: url(./images/body_bg.jpg);
+    }
+    .containermain {
+  background-color: rgba(179, 191, 217, 0.5);
+  border-radius: 10px;
+  width: 1200px; /* Use 95% for mobile */
+  margin: 10px auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 3 columns */
+  gap: 20px; /* Space between images */
+  box-sizing: border-box;
+}
+
+.card-image {
+  background-color: #f8f8f8;
+  height: 350px; /* Adjusted height */
+  border-radius: 15px;
+  background-size: cover;
+  margin: 20px;
+}
+.cn {
+    background-color: #f8f8f8;
+    height: 400px;
+    width: 300px;
+    border-radius: 15px;
+  background-size: cover;
+  margin: 20px;
+
+   
+}
+
+.pics {
+  margin: 5px; /* This can be removed */
+  gap: 10px;
+
+}
+.screen1 {
+  padding: 10px; /* Add padding for better spacing */
+}
+
+.pic1 { background-image: url('./MY ARTS/murals.jpeg'); }
+.pic2 { background-image: url('./MY ARTS/murals2.jpeg'); }
+.pic3 { background-image: url('./MY ARTS/murals5.jpeg'); }
+.pic4 { background-image: url('./MY ARTS/murals4.jpeg'); }
+.pic5 { background-image: url('./MY ARTS/murals3.jpeg'); }
+
+.styled-button {
+    background-color: #e93f1a; /* Button background */
+    color: white; /* Text color */
+    width: auto; /* Automatically adjust width */
+    height: auto; /* Automatically adjust height */
+    padding: 15px 50px; /* Padding around the button */
+    font-size: 16px; /* Font size */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+/* Hover Effects */
+.styled-button:hover {
+    background-color: #aa4e3a; /* Darker color on hover */
+    transform: scale(1.05); /* Slightly grow button */
+}
+
+/* Focused Button (Accessibility) */
+.styled-button:focus {
+    outline: 2px solid #db866c; /* Outline on focus */
+    outline-offset: 2px;
+}
+
+
+
+
+</style>
+<body>
+    <nav>
+        <a href="./index.html" class="styled-button">Back</a>
+    </nav>
+    <div class="screen1">
+        <div class="containermain">
+            <div class="pics">
+                <div class="card-image pic1"></div>
+                <div class="card-image pic4"></div>   
+            </div>
+            <div class="pics">               
+                <div class="card-image pic2"></div>  
+                <div class="card-image pic5"></div>     
+            </div>
+            <div class="pics">          
+                <div class="cn pic3"></div>  
+                    
+            </div>     
+            
+        </div>
+        
+    </div>
+
+</body>
+</html>
