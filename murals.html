@@ -90,6 +90,101 @@ nav {
     outline-offset: 2px;
 }
 
+@media (max-width: 600px) {
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+} 
+
+
+nav {
+    background-color:transparent;
+    padding: 50px;
+    position: fixed;
+    right: 10px
+   
+}
+
+    body {
+        background-color: aliceblue;
+        background-image: url(./images/body_bg.jpg);
+    }
+    .containermain {
+  background-color: rgba(179, 191, 217, 0.5);
+  border-radius: 10px;
+  width: 330px; /* Use 95% for mobile */
+  margin: 10px auto;
+  padding: 00px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); /* 3 columns */
+  gap: 20px; /* Space between images */
+  box-sizing: border-box;
+}
+
+.card-image {
+  background-color: #f8f8f8;
+  height: 250px; /* Adjusted height */
+  border-radius: 15px;
+  background-size: cover;
+  padding:10px ;
+  margin: 20px;
+}
+.cn {
+    background-color: #f8f8f8;
+    height: 400px;
+    width: 300px;
+    border-radius: 15px;
+  background-size: cover;
+  margin: 20px;
+
+   
+}
+
+.pics {
+  margin: 0; /* This can be removed */
+  gap: 10px;
+
+}
+.screen1 {
+  padding: 10px; /* Add padding for better spacing */
+};
+
+.styled-button {
+    background-color: #e93f1a; /* Button background */
+    color: white; /* Text color */
+    width: auto; /* Automatically adjust width */
+    height: auto; /* Automatically adjust height */
+    padding: 15px 50px; /* Padding around the button */
+    font-size: 16px; /* Font size */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+    
+}
+
+/* Hover Effects */
+.styled-button:hover {
+    background-color: #aa4e3a; /* Darker color on hover */
+    transform: scale(1.05); /* Slightly grow button */
+}
+
+/* Focused Button (Accessibility) */
+.styled-button:focus {
+    outline: 2px solid #db866c; /* Outline on focus */
+    outline-offset: 2px;
+}
+}
 
 
 
