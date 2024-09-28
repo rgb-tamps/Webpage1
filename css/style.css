@@ -715,7 +715,7 @@ a:focus {
 
   .card-image {
     background-color: #f8f8f8;
-    height: 400px; /* Let the height adjust automatically */
+    height: 350px; /* Let the height adjust automatically */
     border-radius: 15px;
     background-size: cover;
     margin: 10px 0; /* Adjust margin to take up less space on mobile */
