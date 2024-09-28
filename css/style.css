@@ -498,7 +498,7 @@ a:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  text-align: right;
+  text-align: left;
   padding-left: 20px;
 }
 
@@ -764,7 +764,7 @@ a:focus {
   flex-direction: column; /* Stack content vertically on mobile */
   align-items: center; /* Center items horizontally */
   text-align: center; /* Center text inside the container */
-  padding-right: 180px; /* Remove padding for mobile */
+ padding-right: 190px; /* Remove padding for mobile */
 }
 
 .client_section .client_name h3 {
