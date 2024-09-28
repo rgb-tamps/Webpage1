@@ -764,7 +764,7 @@ a:focus {
   flex-direction: column; /* Stack content vertically on mobile */
   align-items: center; /* Center items horizontally */
   text-align: center; /* Center text inside the container */
- padding-right: 250px; /* Remove padding for mobile */
+  padding-right: 185px; /* Remove padding for mobile */
 }
 
 .client_section .client_name h3 {
