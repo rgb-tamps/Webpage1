@@ -750,7 +750,7 @@ a:focus {
 .footer_section span {
   color: #ffffff;
 
-  .client_section .client-id {
+ .client_section .client-id {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; /* Horizontal center on mobile */
