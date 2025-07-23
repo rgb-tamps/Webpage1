@@ -610,19 +610,17 @@ a:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 80px;
+  padding: 80px ;
   background-color: #1d1d1d;
 }
 
-.footer_section h4 {
+.footer_section h6 {
   color: #ffffff;
   margin: 0;
   text-align: center;
 }
 
-.footer_section a {
-  color: #ffffff;
-}
+
 
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
@@ -647,11 +645,42 @@ a:focus {
   margin: 20px;
 }
 
+.Dcard-image {
+  background-color: #f8f8f8;
+  height: 300px; /* Adjusted height */
+  border-radius: 15px;
+  background-size: cover; 
+  margin: 20px;
+  
+}
+
+.DDcard-image {
+  background-color: #f8f8f8;
+  height: 150px; /* Adjusted height */
+  border-radius: 15px;
+  background-size: cover; 
+  margin: 20px;
+  
+}
+
 .pics {
   margin: 5px; /* This can be removed */
   gap: 10px;
 
 }
+
+.Dpics {
+  margin: 5px; /* This can be removed */
+  gap: 10px;
+
+}
+
+.DDpics {
+  margin: 5px; /* This can be removed */
+  gap: 10px;
+
+}
+
 .screen1 {
   padding: 10px; /* Add padding for better spacing */
 }
@@ -680,7 +709,28 @@ a:focus {
 .pic22 { background-image: url('../MY ARTS/23.jpg'); }
 .pic23 { background-image: url('../MY ARTS/24.png'); }
 .pic24 { background-image: url('../MY ARTS/25.jpeg'); }
+.pic25 { background-image: url('../MY ARTS/26.jpg'); }
+.pic26 { background-image: url('../MY ARTS/27.jpg'); }
 
+
+
+
+
+.Dpic1 { background-image: url('../MY ARTS/st1.png'); }
+.Dpic2 { background-image: url('../MY ARTS/st2.png'); }
+.Dpic3 { background-image: url('../MY ARTS/st3.png'); }
+.Dpic4 { background-image: url('../MY ARTS/wear1.jpg'); }
+.Dpic5 { background-image: url('../MY ARTS/wear2.jpg'); }
+.Dpic6 { background-image: url('../MY ARTS/wear3.jpg'); }
+.Dpic7 { background-image: url('../MY ARTS/wear4.jpg'); }
+.Dpic8 { background-image: url('../MY ARTS/wear5.jpg'); }
+.Dpic9 { background-image: url('../MY ARTS/wear6.jpg'); }
+.Dpic10 { background-image: url('../MY ARTS/wear7.jpg'); }
+.Dpic11{ background-image: url('../MY ARTS/wear8.jpg'); }
+
+.DDpic12{ background-image: url('../MY ARTS/ban1.png'); }
+.DDpic13{ background-image: url('../MY ARTS/ban2.png'); }
+.DDpic14{ background-image: url('../MY ARTS/ban3.png'); }
 
 
 
