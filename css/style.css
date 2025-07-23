@@ -778,7 +778,7 @@ a:focus {
   .Dcontainermain {
   background-color: rgba(179, 191, 217, 0.5);
   border-radius: 10px;
-  width: 1400px; /* Use 95% for mobile */
+  width: 1300px; /* Use 95% for mobile */
   margin: 10px auto;
   padding: 20px;
   display: grid;
@@ -799,7 +799,6 @@ a:focus {
   .Dcard-image {
     background-color: #f8f8f8;
     height: 100px; /* Adjusted height */
-    width: 50px;
     border-radius: 15px;
     background-size: cover; 
     margin: 20px;
@@ -809,7 +808,6 @@ a:focus {
   .DDcard-image {
     background-color: #f8f8f8;
     height: 50px; /* Adjusted height */
-    width: 20px;
     border-radius: 15px;
     background-size: cover; 
     margin: 20px;
