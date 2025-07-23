@@ -724,10 +724,6 @@ a:focus {
 .pic25 { background-image: url('../MY ARTS/26.jpg'); }
 .pic26 { background-image: url('../MY ARTS/27.jpg'); }
 
-
-
-
-
 .Dpic1 { background-image: url('../MY ARTS/st1.png'); }
 .Dpic2 { background-image: url('../MY ARTS/st2.png'); }
 .Dpic3 { background-image: url('../MY ARTS/st3.png'); }
@@ -737,7 +733,7 @@ a:focus {
 .Dpic7 { background-image: url('../MY ARTS/wear4.jpg'); }
 .Dpic8 { background-image: url('../MY ARTS/wear5.jpg'); }
 .Dpic9 { background-image: url('../MY ARTS/wear6.jpg'); }
-.Dpic10 { background-image: url('../MY ARTS/wear7.jpg'); }
+.Dpic10{ background-image: url('../MY ARTS/wear7.jpg'); }
 .Dpic11{ background-image: url('../MY ARTS/wear8.jpg'); }
 
 .DDpic12{ background-image: url('../MY ARTS/ban1.png'); }
@@ -798,7 +794,7 @@ a:focus {
 
   .Dcard-image {
     background-color: #f8f8f8;
-    height: 100px; /* Adjusted height */
+    height: 130px; /* Adjusted height */
     border-radius: 15px;
     background-size: cover; 
     margin: 20px;
@@ -807,7 +803,7 @@ a:focus {
   
   .DDcard-image {
     background-color: #f8f8f8;
-    height: 50px; /* Adjusted height */
+    height: 70px; /* Adjusted height */
     border-radius: 15px;
     background-size: cover; 
     margin: 20px;
