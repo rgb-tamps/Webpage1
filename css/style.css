@@ -637,6 +637,18 @@ a:focus {
   box-sizing: border-box;
 }
 
+.Dcontainermain {
+  background-color: rgba(179, 191, 217, 0.5);
+  border-radius: 10px;
+  width: 1200px; /* Use 95% for mobile */
+  margin: 10px auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 20px; /* Space between images */
+  box-sizing: border-box;
+}
+
 .card-image {
   background-color: #f8f8f8;
   height: 400px; /* Adjusted height */
@@ -763,6 +775,19 @@ a:focus {
     box-sizing: border-box;
   }
 
+  .Dcontainermain {
+  background-color: rgba(179, 191, 217, 0.5);
+  border-radius: 10px;
+  width: 1400px; /* Use 95% for mobile */
+  margin: 10px auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 20px; /* Space between images */
+  box-sizing: border-box;
+}
+  
+
   .card-image {
     background-color: #f8f8f8;
     height: 350px; /* Let the height adjust automatically */
@@ -773,7 +798,7 @@ a:focus {
 
   .Dcard-image {
     background-color: #f8f8f8;
-    height: 60px; /* Adjusted height */
+    height: 50px; /* Adjusted height */
     border-radius: 15px;
     background-size: cover; 
     margin: 20px;
@@ -782,7 +807,7 @@ a:focus {
   
   .DDcard-image {
     background-color: #f8f8f8;
-    height: 40px; /* Adjusted height */
+    height: 20px; /* Adjusted height */
     border-radius: 15px;
     background-size: cover; 
     margin: 20px;
