@@ -729,7 +729,7 @@ a:focus {
 .Dpic11{ background-image: url('../MY ARTS/wear8.jpg'); }
 
 .DDpic12{ background-image: url('../MY ARTS/ban1.png'); }
-.DDpic13{ background-image: url('../MY ARTS/ban2.PNG'); }
+.DDpic13{ background-image: url('../MY ARTS/ban2.png'); }
 .DDpic14{ background-image: url('../MY ARTS/ban3.png'); }
 
 
@@ -770,6 +770,25 @@ a:focus {
     background-size: cover;
     margin: 10px 0; /* Adjust margin to take up less space on mobile */
   }
+
+  .Dcard-image {
+    background-color: #f8f8f8;
+    height: 200px; /* Adjusted height */
+    border-radius: 15px;
+    background-size: cover; 
+    margin: 20px;
+    
+  }
+  
+  .DDcard-image {
+    background-color: #f8f8f8;
+    height: 100px; /* Adjusted height */
+    border-radius: 15px;
+    background-size: cover; 
+    margin: 20px;
+    
+  }
+
 
   .pics {
     margin: 0; /* Removed margin for better alignment */
