@@ -794,7 +794,7 @@ a:focus {
 
   .Dcard-image {
     background-color: #f8f8f8;
-    height: 160px; /* Adjusted height */
+    height: 190px; /* Adjusted height */
     border-radius: 15px;
     background-size: cover; 
     margin: 20px;
@@ -803,7 +803,7 @@ a:focus {
   
   .DDcard-image {
     background-color: #f8f8f8;
-    height: 90px; /* Adjusted height */
+    height: 120px; /* Adjusted height */
     border-radius: 15px;
     background-size: cover; 
     margin: 20px;
