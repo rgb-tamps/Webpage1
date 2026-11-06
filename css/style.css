@@ -1,4 +1,7 @@
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   font-family: 'Poppins', sans-serif;
   color: #0c0c0c;
   background-color: #ffffff;
@@ -654,6 +657,11 @@ a:focus {
 
 /* footer section*/
 .footer_section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-top: auto;
   font-weight: 500;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -666,6 +674,10 @@ a:focus {
   color: #ffffff;
   margin: 0;
   text-align: center;
+}
+
+.footer_section span {
+  flex-basis: 100%;
 }
 
 
@@ -741,9 +753,9 @@ a:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-          flex-wrap: wrap;
+            flex-wrap: wrap;
   padding: 80px 10px;
-  gap:10px
+          gap: 10px;
   background-color: #1d1d1d;
 }
 
