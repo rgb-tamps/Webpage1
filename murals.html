@@ -6,16 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <title>Murals</title>
+    <link href="css/artwork-viewer.css" rel="stylesheet">
 </head>
 <style>
-nav {
-    background-color:transparent;
-    padding: 50px;
-    position: fixed;
-    right: 10px
-   
-}
-
     body {
         background-color: aliceblue;
         background-image: url(./images/body_bg.jpg);
@@ -89,6 +82,17 @@ nav {
     outline-offset: 2px;
 }
 
+.card-image[role="button"],
+.cn[role="button"] {
+    cursor: zoom-in;
+}
+
+.card-image[role="button"]:focus-visible,
+.cn[role="button"]:focus-visible {
+    outline: 3px solid #1d1d1d;
+    outline-offset: 3px;
+}
+
 @media (max-width: 600px) {
 
 * {
@@ -105,14 +109,6 @@ html, body {
   width: 100%;
 } 
 
-
-nav {
-    background-color:transparent;
-    padding: 50px;
-    position: fixed;
-    right: 10px
-   
-}
 
     body {
         background-color: aliceblue;
@@ -189,8 +185,8 @@ nav {
 
 </style>
 <body>
-    <nav>
-        <a href="./index.html" class="styled-button">Back</a>
+    <nav class="sticky-page-actions" aria-label="Murals navigation">
+        <a href="./index.html">Back</a>
     </nav>
     <div class="screen1">
         <div class="containermain">
@@ -210,6 +206,13 @@ nav {
         </div>
         
     </div>
+
+    <dialog class="artwork-viewer" aria-label="Artwork viewer">
+        <button class="artwork-viewer-close" type="button" aria-label="Close artwork viewer">&times;</button>
+        <img class="artwork-viewer-image" alt="">
+    </dialog>
+
+    <script src="js/gallery-viewer.js"></script>
 
 </body>
 </html>

@@ -30,6 +30,7 @@
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet">
   <!-- Custom styles for this template -->
   <link href="css/style.css" rel="stylesheet" />
+  <link href="css/artwork-viewer.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 </head>
@@ -79,77 +80,41 @@
 
   <!-- about section -->
 
-  <section class="about_section layout_padding">
+  <section class="about_section layout_padding artwork-section">
     <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="detail-box">
-            <div class="heading_container">
-              <h2>
-                Gallery
-              </h2>
-            </div>
-    
-            <div class="screen1">
-              <div class="containermain">
-                  <div class="Dpics">
-                      <div class="Dcard-image Dpic1"></div>
-                      <div class="Dcard-image Dpic4"></div> 
-                      <div class="Dcard-image Dpic7"></div>   
-                      <div class="Dcard-image Dpic10"></div>   
-                      <div class="DDcard-image DDpic13"></div>   
-                     
-                      
-                
-                    
-                    
-                       
+      <div class="heading_container">
+        <h2>Digital Work</h2>
+      </div>
 
-                  </div>
-                  <div class="Dpics">     
-                    <div class="Dcard-image Dpic2"></div>   
-                    <div class="Dcard-image Dpic5"></div>   
-                    <div class="Dcard-image Dpic8"></div>   
-                    <div class="Dcard-image Dpic11"></div>   
-                    <div class="DDcard-image DDpic14"></div>   
-                   
-                 
-                      
-                 
+      <nav class="sticky-page-actions" aria-label="Digital work links">
+        <a href="./Gallery.html">Back to Gallery</a>
+        <a href="https://web.facebook.com/kloyd.tampus">Contact us</a>
+      </nav>
 
-                  </div>
-                  <div class="Dpics">
-                    <div class="Dcard-image Dpic3"></div>   
-                    <div class="Dcard-image Dpic6"></div>   
-                    <div class="Dcard-image Dpic9"></div>   
-                    <div class="DDcard-image DDpic12"></div>   
-                   
-                   
-                   
-                   
-
-
-                  </div>
-              </div>
-          </div>
-            
-            <a href="https://web.facebook.com/kloyd.tampus">
-              Contact us
-            </a>
-            <nav>
-              <a href="./index.html" class="styled-button">Back</a>
-          </nav>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="img-box">
-            <img src="images/about-img.png" alt="">
-          </div>
-        </div>
+      <div class="artwork-grid" aria-label="Digital artwork">
+        <button class="artwork-card" type="button"><img src="MY ARTS/st1.png" alt="Digital artwork 1" loading="lazy"></button>
+        <button class="artwork-card" type="button"><img src="MY ARTS/st2.png" alt="Digital artwork 2" loading="lazy"></button>
+        <button class="artwork-card" type="button"><img src="MY ARTS/st3.png" alt="Digital artwork 3" loading="lazy"></button>
+        <button class="artwork-card" type="button"><img src="MY ARTS/wear1.jpg" alt="Digital artwork 4" loading="lazy"></button>
+        <button class="artwork-card" type="button"><img src="MY ARTS/wear2.jpg" alt="Digital artwork 5" loading="lazy"></button>
+        <button class="artwork-card" type="button"><img src="MY ARTS/wear3.jpg" alt="Digital artwork 6" loading="lazy"></button>
+        <button class="artwork-card" type="button"><img src="MY ARTS/wear4.jpg" alt="Digital artwork 7" loading="lazy"></button>
+        <button class="artwork-card" type="button"><img src="MY ARTS/wear5.jpg" alt="Digital artwork 8" loading="lazy"></button>
+        <button class="artwork-card" type="button"><img src="MY ARTS/wear6.jpg" alt="Digital artwork 9" loading="lazy"></button>
+        <button class="artwork-card" type="button"><img src="MY ARTS/wear7.jpg" alt="Digital artwork 10" loading="lazy"></button>
+        <button class="artwork-card" type="button"><img src="MY ARTS/wear8.jpg" alt="Digital artwork 11" loading="lazy"></button>
+        <button class="artwork-card" type="button"><img src="MY ARTS/ban1.png" alt="Digital artwork 12" loading="lazy"></button>
+        <button class="artwork-card" type="button"><img src="MY ARTS/ban2.PNG" alt="Digital artwork 13" loading="lazy"></button>
+        <button class="artwork-card" type="button"><img src="MY ARTS/ban3.png" alt="Digital artwork 14" loading="lazy"></button>
       </div>
     </div>
   </section>
   <!-- end about section -->
+
+  <dialog class="artwork-viewer" aria-label="Artwork viewer">
+    <button class="artwork-viewer-close" type="button" aria-label="Close artwork viewer">&times;</button>
+    <img class="artwork-viewer-image" alt="">
+  </dialog>
 
   <!-- info section -->
 
@@ -177,6 +142,7 @@
   <!-- footer section -->
 
 
+  <script src="js/gallery-viewer.js"></script>
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
 

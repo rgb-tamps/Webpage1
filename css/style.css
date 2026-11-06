@@ -307,6 +307,34 @@ a:focus {
   align-items: center;
 }
 
+.mural-preview-link {
+  display: inline-block;
+  border-radius: 8px;
+  transition: transform 0.25s ease, filter 0.25s ease;
+}
+
+.mural-preview-link img {
+  display: block;
+  border-radius: inherit;
+}
+
+.mural-preview-link:hover,
+.mural-preview-link:focus-visible {
+  filter: drop-shadow(0 0 10px rgba(233, 63, 26, 0.8));
+  transform: scale(1.025);
+}
+
+.mural-preview-link:focus-visible {
+  outline: 3px solid #e93f1a;
+  outline-offset: 5px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mural-preview-link {
+    transition: none;
+  }
+}
+
 .about_section .detail-box a {
   display: inline-block;
   padding: 8px 35px;
@@ -645,79 +673,7 @@ a:focus {
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
 
-.containermain {
-  background-color: rgba(179, 191, 217, 0.5);
-  border-radius: 10px;
-  width: 1200px; /* Use 95% for mobile */
-  margin: 10px auto;
-  padding: 20px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columns */
-  gap: 20px; /* Space between images */
-  box-sizing: border-box;
-}
-
-.Dcontainermain {
-  background-color: rgba(179, 191, 217, 0.5);
-  border-radius: 10px;
-  width: 1200px; /* Use 95% for mobile */
-  margin: 10px auto;
-  padding: 20px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columns */
-  gap: 20px; /* Space between images */
-  box-sizing: border-box;
-}
-
-.card-image {
-  background-color: #f8f8f8;
-  height: 400px; /* Adjusted height */
-  border-radius: 15px;
-  background-size: cover;
-  margin: 20px;
-}
-
-.Dcard-image {
-  background-color: #f8f8f8;
-  height: 300px; /* Adjusted height */
-  border-radius: 15px;
-  background-size: cover; 
-  margin: 20px;
-  
-}
-
-.DDcard-image {
-  background-color: #f8f8f8;
-  height: 150px; /* Adjusted height */
-  border-radius: 15px;
-  background-size: cover; 
-  margin: 20px;
-  
-}
-
-.pics {
-  margin: 5px; /* This can be removed */
-  gap: 10px;
-
-}
-
-.Dpics {
-  margin: 5px; /* This can be removed */
-  gap: 10px;
-
-}
-
-.DDpics {
-  margin: 5px; /* This can be removed */
-  gap: 10px;
-
-}
-
-.screen1 {
-  padding: 10px; /* Add padding for better spacing */
-}
-
-.gallery-actions {
+.sticky-page-actions {
   position: fixed;
   right: 24px;
   bottom: 24px;
@@ -729,89 +685,39 @@ a:focus {
   border-radius: 8px;
 }
 
-.gallery-actions a {
+.sticky-page-actions a {
   display: inline-block;
   min-width: 130px;
   padding: 10px 16px;
-  border: 1px solid #1d1d1d;
+  border: 1px solid #e93f1a;
   border-radius: 5px;
-  background-color: #1d1d1d;
+  background-color: #e93f1a;
   color: #ffffff;
   text-align: center;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
   transition: background-color 0.2s ease, color 0.2s ease;
 }
 
-.gallery-actions a:hover,
-.gallery-actions a:focus {
-  background-color: #ffffff;
-  color: #1d1d1d;
+.sticky-page-actions a:hover,
+.sticky-page-actions a:focus {
+  background-color: #aa4e3a;
+  border-color: #aa4e3a;
+  color: #ffffff;
 }
 
 @media (max-width: 480px) {
-  .gallery-actions {
+  .sticky-page-actions {
     right: 12px;
     bottom: 12px;
     gap: 8px;
   }
 
-  .gallery-actions a {
+  .sticky-page-actions a {
     min-width: 112px;
     padding: 8px 12px;
     font-size: 13px;
   }
 }
-
-.pic1 { background-image: url('../MY ARTS/1.jpg'); }
-.pic2 { background-image: url('../MY ARTS/2.jpg'); }
-.pic3 { background-image: url('../MY ARTS/3.jpg'); }
-.pic4 { background-image: url('../MY ARTS/4.jpg'); }
-.pic5 { background-image: url('../MY ARTS/5.jpeg'); }
-.pic6 { background-image: url('../MY ARTS/6.jpg'); }
-.pic7 { background-image: url('../MY ARTS/7.jpg'); }
-.pic8 { background-image: url('../MY ARTS/8.jpeg'); }
-.pic9 { background-image: url('../MY ARTS/9.jpg'); }
-.pic10 { background-image: url('../MY ARTS/10.jpeg'); }
-.pic11 { background-image: url('../MY ARTS/12.jpg'); }
-.pic12 { background-image: url('../MY ARTS/13.jpeg'); }
-.pic13 { background-image: url('../MY ARTS/14.jpeg'); }
-.pic14 { background-image: url('../MY ARTS/15.jpg'); }
-.pic15 { background-image: url('../MY ARTS/16.jpg'); }
-.pic16 { background-image: url('../MY ARTS/17.jpg'); }
-.pic17 { background-image: url('../MY ARTS/18.jpg'); }
-.pic18 { background-image: url('../MY ARTS/19.jpg'); }
-.pic19 { background-image: url('../MY ARTS/20.jpg'); }
-.pic20 { background-image: url('../MY ARTS/21.jpg'); }
-.pic21 { background-image: url('../MY ARTS/22.png'); }
-.pic22 { background-image: url('../MY ARTS/23.jpg'); }
-.pic23 { background-image: url('../MY ARTS/24.png'); }
-.pic24 { background-image: url('../MY ARTS/25.jpeg'); }
-.pic25 { background-image: url('../MY ARTS/26.jpg'); }
-.pic26 { background-image: url('../MY ARTS/27.jpg'); }
-.pic27 { background-image: url('../MY ARTS/28.jpg'); }
-.pic28 { background-image: url('../MY ARTS/29.jpg'); }
-.pic29 { background-image: url('../MY ARTS/30.jpg'); }
-.pic30 { background-image: url('../MY ARTS/31.jpg'); }
-.pic31 { background-image: url('../MY ARTS/32.jpg'); }
-
-.Dpic1 { background-image: url('../MY ARTS/st1.png'); }
-.Dpic2 { background-image: url('../MY ARTS/st2.png'); }
-.Dpic3 { background-image: url('../MY ARTS/st3.png'); }
-.Dpic4 { background-image: url('../MY ARTS/wear1.jpg'); }
-.Dpic5 { background-image: url('../MY ARTS/wear2.jpg'); }
-.Dpic6 { background-image: url('../MY ARTS/wear3.jpg'); }
-.Dpic7 { background-image: url('../MY ARTS/wear4.jpg'); }
-.Dpic8 { background-image: url('../MY ARTS/wear5.jpg'); }
-.Dpic9 { background-image: url('../MY ARTS/wear6.jpg'); }
-.Dpic10{ background-image: url('../MY ARTS/wear7.jpg'); }
-.Dpic11{ background-image: url('../MY ARTS/wear8.jpg'); }
-
-.DDpic12{ background-image: url('../MY ARTS/ban1.png'); }
-.DDpic13{ background-image: url('../MY ARTS/ban2.PNG'); }
-.DDpic14{ background-image: url('../MY ARTS/ban3.png'); }
-
-
-
 
 @media (max-width: 600px) {
 
@@ -829,66 +735,6 @@ a:focus {
     width: 100%;
   } 
 
-
-  .containermain {
-    background-color: rgba(179, 191, 217, 0.5);
-    border-radius: 10px;
-    width: 95%; /* Use a percentage for width on mobile */
-    margin: 0 auto; /* Center the container */
-    display: grid;
-    grid-template-columns: 1fr; /* Change to 1 column on mobile for better layout */
-    gap: 20px; /* Space between images */
-    box-sizing: border-box;
-  }
-
-  .Dcontainermain {
-  background-color: rgba(179, 191, 217, 0.5);
-  border-radius: 10px;
-  width: 1300px; /* Use 95% for mobile */
-  margin: 10px auto;
-  padding: 20px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columns */
-  gap: 20px; /* Space between images */
-  box-sizing: border-box;
-}
-  
-
-  .card-image {
-    background-color: #f8f8f8;
-    height: 350px; /* Let the height adjust automatically */
-    border-radius: 15px;
-    background-size: cover;
-    margin: 10px 0; /* Adjust margin to take up less space on mobile */
-  }
-
-  .Dcard-image {
-    background-color: #f8f8f8;
-    height: 190px; /* Adjusted height */
-    border-radius: 15px;
-    background-size: cover; 
-    margin: 20px;
-    
-  }
-  
-  .DDcard-image {
-    background-color: #f8f8f8;
-    height: 120px; /* Adjusted height */
-    border-radius: 15px;
-    background-size: cover; 
-    margin: 20px;
-    
-  }
-
-
-  .pics {
-    margin: 0; /* Removed margin for better alignment */
-    gap: 10px;
-  }
-
-  .screen1 {
-    padding: 10px; /* Add padding for better spacing */
-  }
 
 .footer_section {
   font-weight: 500;
