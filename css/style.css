@@ -678,6 +678,27 @@ a:focus {
 
 .footer_section span {
   flex-basis: 100%;
+  color: #ffffff;
+}
+
+.index_footer_section {
+  box-sizing: border-box;
+  flex-grow: 1;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.index_footer_section > span {
+  text-align: center;
+}
+
+.index_footer_section .footer_contact_details {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 12px 32px;
+  width: 100%;
 }
 
 
@@ -793,4 +814,11 @@ a:focus {
 .client_section .client_name p {
   color: #e93f1a;
 }
+}
+
+@media (max-width: 600px) {
+  .index_footer_section .footer_contact_details {
+    flex-direction: column;
+    gap: 12px;
+  }
 }
