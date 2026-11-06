@@ -46,10 +46,26 @@ body {
   height: 100vh;
   background-image: url(../images/homepic.jpg);
   background-size: cover;
+  box-sizing: border-box;
+  padding-top: 80px;
+}
+
+.header_section {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100000;
+  background-color: rgba(15, 15, 15, 0.9);
+}
+
+body:not(.sub_page) .hero_area .slider_section {
+  height: 100%;
 }
 
 .sub_page .hero_area {
   height: auto;
+  padding-top: 80px;
 }
 
 .header_section .container-fluid {
@@ -699,6 +715,51 @@ a:focus {
 
 .screen1 {
   padding: 10px; /* Add padding for better spacing */
+}
+
+.gallery-actions {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 10px;
+  border-radius: 8px;
+}
+
+.gallery-actions a {
+  display: inline-block;
+  min-width: 130px;
+  padding: 10px 16px;
+  border: 1px solid #1d1d1d;
+  border-radius: 5px;
+  background-color: #1d1d1d;
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.gallery-actions a:hover,
+.gallery-actions a:focus {
+  background-color: #ffffff;
+  color: #1d1d1d;
+}
+
+@media (max-width: 480px) {
+  .gallery-actions {
+    right: 12px;
+    bottom: 12px;
+    gap: 8px;
+  }
+
+  .gallery-actions a {
+    min-width: 112px;
+    padding: 8px 12px;
+    font-size: 13px;
+  }
 }
 
 .pic1 { background-image: url('../MY ARTS/1.jpg'); }
